@@ -91,6 +91,8 @@ import Cookies from 'js-cookie'
     width: 100%;
     position: fixed;
     top: 0;
+    background-color: #ffffff;
+    z-index: 1000;
     .top_part{
       width: 1400px;
       height: 100px;

@@ -3,6 +3,9 @@
     <div class="banner_wrap"></div>
     <div class="content_wrap">
       <SideBar :routes="routes"></SideBar>
+      <div class="inner_wrap">
+        <router-view></router-view>
+      </div>
     </div>
   </div>
 </template>
@@ -47,6 +50,13 @@ import SideBar from '../../components/SideBar'
     width: 1400px;
     margin: 0 auto;
     border: 1px solid red;
+    display: flex;
+    margin-top: 50px;
+    .inner_wrap{
+      width: calc(100% - 200px);
+      border: 1px solid orange;
+      margin-left: 50px;
+    }
   }
 }
 </style>

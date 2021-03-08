@@ -120,7 +120,6 @@ html {
 	height: 100%;
 }
 body {
-	height: 100%;
 	line-height: 1;
 }
 ol,
@@ -152,8 +151,8 @@ a {
 	clear: both;
 }
 #app {
-	height: 100%;
+	// height: 100%;
 	position: relative;
-	overflow: hidden;
+	// overflow: hidden;
 }
 </style>

@@ -20,7 +20,7 @@ const routes = [
       },
       {
         path: '/aboutUs/patents',
-        component:() => import('../views/aboutUs/Introduction.vue')
+        component:() => import('../views/aboutUs/Patents.vue')
       },
       {
         path: '/aboutUs/qualifications',

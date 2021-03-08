@@ -41,8 +41,8 @@
   width: 200px;
   border-right: 1px solid #e9edf5;
   .item{
-    height: 50px;
-    line-height: 50px;
+    height: 45px;
+    line-height: 45px;
     font-size: 18px;
     text-align: center;
     &:hover{
