@@ -39,6 +39,7 @@
 <style lang='scss' scoped>
 .bar_wrap{
   width: 200px;
+  height: 135px;
   border-right: 1px solid #e9edf5;
   .item{
     height: 45px;

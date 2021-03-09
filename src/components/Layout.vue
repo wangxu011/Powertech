@@ -192,6 +192,7 @@ import Cookies from 'js-cookie'
   }
   .content_container{
     margin-top: 160px;
+    padding-bottom: 50px;
     // border: 1px solid red;
   }
 }

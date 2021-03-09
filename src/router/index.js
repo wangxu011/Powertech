@@ -24,7 +24,7 @@ const routes = [
       },
       {
         path: '/aboutUs/qualifications',
-        component:() => import('../views/aboutUs/Introduction.vue')
+        component:() => import('../views/aboutUs/Qualifications.vue')
       }
     ]
   }

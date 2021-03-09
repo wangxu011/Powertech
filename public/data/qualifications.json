@@ -1,0 +1,36 @@
+{
+  "value": [
+    {
+      "img_path": "/images/aboutUs/1.jpg",
+      "id": 1
+    },
+    {
+      "img_path": "/images/aboutUs/2.jpg",
+      "id": 2
+    },
+    {
+      "img_path": "/images/aboutUs/3.jpg",
+      "id": 3
+    },
+    {
+      "img_path": "/images/aboutUs/4.jpg",
+      "id": 4
+    },
+    {
+      "img_path": "/images/aboutUs/5.jpg",
+      "id": 5
+    },
+    {
+      "img_path": "/images/aboutUs/6.jpg",
+      "id": 6
+    },
+    {
+      "img_path": "/images/aboutUs/7.jpg",
+      "id": 7
+    },
+    {
+      "img_path": "/images/aboutUs/8.jpg",
+      "id": 8
+    }
+  ]
+}
