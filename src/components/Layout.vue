@@ -40,7 +40,7 @@
       </div>
       <div class="nav">
         <el-menu 
-          default-active="/" 
+          :default-active="activeRoute" 
           mode="horizontal" 
           text-color="#a0adb5" 
           active-text-color="#feffff" 
@@ -54,7 +54,10 @@
             <el-menu-item index="/aboutUs/patents">公司专利</el-menu-item>
             <el-menu-item index="/aboutUs/qualifications">资质荣誉</el-menu-item>
           </el-submenu>
-          
+          <el-submenu index="productData">
+            <template slot="title">产品资料</template>
+            <el-menu-item index="/productData/technicalIndex">技术指标</el-menu-item>
+          </el-submenu>
         </el-menu>
       </div>
     </div>
@@ -79,6 +82,11 @@ import Cookies from 'js-cookie'
         this.locale = locale
         Cookies.set('lang', locale)
         this.$i18n.locale = locale
+      }
+    },
+    computed: {
+      activeRoute() {
+        return this.$route.path
       }
     }
   }

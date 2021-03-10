@@ -27,6 +27,17 @@ const routes = [
         component:() => import('../views/aboutUs/Qualifications.vue')
       }
     ]
+  },
+  {
+    path: '/productData',
+    name: 'ProductData',
+    component: () => import('../views/productData/Index.vue'),
+    children: [
+      {
+        path: '/productData/technicalIndex',
+        component:() => import('../views/productData/TechnicalIndex.vue')
+      }
+    ]
   }
 ]
 

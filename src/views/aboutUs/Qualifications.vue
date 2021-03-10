@@ -2,10 +2,17 @@
   <div class="content_container">
     <p class="title">资质荣誉</p>
     <div class="img_wrapper">
-      <div class="item" v-for="item in list" :key="item.id">
-        <div class="img_wrap">
-          <img :src="item.img_path" alt="">
+      <div class="inner_wrapper" v-for="item in list" :key="item.id">
+        <div class="item">
+          <div class="img_wrap">
+            <el-image
+              :src="item.img_path"
+              :preview-src-list="preViewList">
+            </el-image>
+            <!-- <img :src="item.img_path" alt=""> -->
+          </div>
         </div>
+        <p class="text">企业资质与荣誉</p>
       </div>
     </div>
   </div>
@@ -17,13 +24,17 @@ import axios from '@/axios/index.js'
   export default {
     data () {
       return {
-        list: []
+        list: [],
+        preViewList: []
       }
     },
     created() {
       axios.get('/data/qualifications.json').then(res => {
-        console.log(res)
+        // console.log(res)
         this.list = res.value
+        this.preViewList = this.list.map(item => (
+          item.img_path
+        ))
       })
     }
   }
@@ -43,26 +54,33 @@ import axios from '@/axios/index.js'
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    .item{
-      width: 280px;
-      height: 200px;
-      border: 1px solid #eee;
-      border-radius: 6px;
-      position: relative;
-      padding: 20px;
+    .inner_wrapper{
       margin-left: 48px;
       margin-top: 48px;
-      .img_wrap{
-        height: 100%;
+      .item{
+        width: 280px;
+        height: 200px;
+        border: 1px solid #eee;
+        border-radius: 6px;
         position: relative;
-        overflow: hidden;
-        img{
-          width: 100%;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+        padding: 20px;
+        cursor: pointer;
+        .img_wrap{
+          height: 100%;
+          position: relative;
+          overflow: hidden;
+          img{
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
         }
+      }
+      .text{
+        text-align: center;
+        margin-top: 10px;
       }
     }
   }

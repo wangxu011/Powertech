@@ -1,5 +1,5 @@
 <template>
-  <div class="about_container">
+  <div class="technical_container">
     <div class="banner_wrap"></div>
     <div class="content_wrap">
       <SideBar :routes="routes"></SideBar>
@@ -18,16 +18,8 @@ import SideBar from '../../components/SideBar'
       return {
         routes: [
           {
-            name: '公司介绍',
-            path: '/aboutUs/introduction'
-          },
-          {
-            name: '公司专利',
-            path: '/aboutUs/patents'
-          },
-          {
-            name: '资质荣誉',
-            path: '/aboutUs/qualifications'
+            name: '技术指标',
+            path: '/productData/technicalIndex'
           }
         ]
       }
@@ -39,7 +31,7 @@ import SideBar from '../../components/SideBar'
 </script>
 
 <style lang='scss' scoped>
-.about_container{
+.technical_container{
   .banner_wrap{
     height: 300px;
     background-image: url('../../assets/images/common/banner.jpg');

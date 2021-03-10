@@ -9,7 +9,8 @@ import {
   MenuItem,
   MenuItemGroup,
   Carousel,
-  CarouselItem
+  CarouselItem,
+  Image
 } from 'element-ui'
 
 Vue.use(Menu)
@@ -18,6 +19,7 @@ Vue.use(MenuItem)
 Vue.use(MenuItemGroup)
 Vue.use(Carousel)
 Vue.use(CarouselItem)
+Vue.use(Image)
 
 Vue.config.productionTip = false
 
