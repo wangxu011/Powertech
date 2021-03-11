@@ -6,7 +6,7 @@
       v-for="item in routes" 
       :key="item.id"
       @click="goRoute(item.path)">
-      {{item.name}}
+      {{$t(item.name)}}
     </p>
   </div>
 </template>

@@ -47,12 +47,12 @@
           style="border-bottom: none;" 
           background-color="#1e50ae"
           router>
-          <el-menu-item index="/">首页</el-menu-item>
+          <el-menu-item index="/">{{$t("menu.home")}}</el-menu-item>
           <el-submenu index="aboutUs">
-            <template slot="title">关于我们</template>
-            <el-menu-item index="/aboutUs/introduction">公司介绍</el-menu-item>
-            <el-menu-item index="/aboutUs/patents">公司专利</el-menu-item>
-            <el-menu-item index="/aboutUs/qualifications">资质荣誉</el-menu-item>
+            <template slot="title">{{$t("menu.aboutUs")}}</template>
+            <el-menu-item index="/aboutUs/introduction">{{$t("menu.profile")}}</el-menu-item>
+            <el-menu-item index="/aboutUs/patents">{{$t("menu.patents")}}</el-menu-item>
+            <el-menu-item index="/aboutUs/qualifications">{{$t("menu.honor")}}</el-menu-item>
           </el-submenu>
           <el-submenu index="productData">
             <template slot="title">产品资料</template>

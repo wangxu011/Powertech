@@ -1,7 +1,7 @@
 <template>
   <div class="content_container">
-    <p class="title">公司专利</p>
-    <p class="sub_title">北京实力源经过不断的努力，已在真空镀膜领域取得大部分核心专利。</p>
+    <p class="title">{{$t('menu.patents')}}</p>
+    <p class="sub_title">{{$t('companyPatents.content')}}</p>
     <div class="img_wrap">
       <img src="../../assets/images/aboutUs/patents.jpg" alt="">
     </div>

@@ -1,5 +1,28 @@
 {
   "common": {
     "hotline": "Consult Hotline"
+  },
+  "menu": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "profile": "Company Profile",
+    "patents": "Company Patents",
+    "honor": "Qualification Honors"
+  },
+  "companyProfile": {
+    "title1": "1. Company profile and business scope",
+    "title2": "2. Company customers and applications",
+    "title3": "3. Introduction of company products and technological innovation",
+    "title4": "4. Our Advantages",
+    "content1": "Powertech was established in 1998, which is one of the earliest PVD equipment manufacturer in China. With over 20 years of continuous development, we now have a whole set of patents that protects one of the most advanced PVD technology in China. Our factory is located in Tongzhou district Beijing with an area over 10000 square meters. We have over 300 staff where around 100 are R&D staff.",
+    "content2": "Innovation is always number one at Powertech. Relying on our extraordinary effort in continuously refining our design and technology, we are one of the most influential PVD designer and manufacturer. As of now, we have sold over 1000 sets of PVD equipment covering an customer group including almost all the major hard and decorative coating customers.",
+    "content3": "Our main product is PVD vacuum coating machine and the associated key components. All of our product are fully designed, and manufactured by ourselves. Components include Vacuum chamber, Vacuum system, Target system, Powers supply system, Automation system, Water supply system, Gas supply system, Heating system, Measuring system, and etc. Our fully automated equipment can provide one touch operation which can decrease the operational cost and increase the operational efficiency at the same time for our customers!",
+    "content4": "We have a very strong R&D team which enabled us to fully customize our equipment to meet all the needs of our customer. Besides, we have sold over 1000 sets of PVD equipment covering areas in decorative coating, hard coating, optical coating, research purposed coating, and etc. Our after sales crew are also top tiered in the industry providing the after sales service which eliminates our customers’ worry about any issue after the delivery of our equipment. In order to make sure our technology are leading in the industry, we have established cooperation with tier one universities and research institutes. Last but not the least, our customers includes top companies like Apple, Microsoft, Kohler, Foxcon, Flex and etc. From the cooperation with these industry leaders, we continuously improve our technology and service to ensure the equipment and service that we provide are among the highest standard."
+  },
+  "companyPatents": {
+    "content": "After decades of research and accumulation, we have obtained most of the key patents in the industry."
+  },
+  "honor": {
+    "content": "Company qualification and honor"
   }
 }

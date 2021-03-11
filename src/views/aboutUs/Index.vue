@@ -18,15 +18,15 @@ import SideBar from '../../components/SideBar'
       return {
         routes: [
           {
-            name: '公司介绍',
+            name: 'menu.profile',
             path: '/aboutUs/introduction'
           },
           {
-            name: '公司专利',
+            name: 'menu.patents',
             path: '/aboutUs/patents'
           },
           {
-            name: '资质荣誉',
+            name: 'menu.honor',
             path: '/aboutUs/qualifications'
           }
         ]

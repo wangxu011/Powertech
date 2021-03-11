@@ -1,6 +1,6 @@
 <template>
   <div class="content_container">
-    <p class="title">资质荣誉</p>
+    <p class="title">{{$t('menu.honor')}}</p>
     <div class="img_wrapper">
       <div class="inner_wrapper" v-for="item in list" :key="item.id">
         <div class="item">
@@ -12,7 +12,7 @@
             <!-- <img :src="item.img_path" alt=""> -->
           </div>
         </div>
-        <p class="text">企业资质与荣誉</p>
+        <p class="text">{{$t('honor.content')}}</p>
       </div>
     </div>
   </div>
