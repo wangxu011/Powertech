@@ -64,13 +64,18 @@
     <div class="content_container">
       <router-view></router-view>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Footer from '@/components/Footer'
 import Cookies from 'js-cookie'
 
   export default {
+    components: {
+      Footer
+    },
     data () {
       return {
         locale: Cookies.get('lang') || 'CN'
