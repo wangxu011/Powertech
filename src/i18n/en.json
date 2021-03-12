@@ -7,7 +7,18 @@
     "aboutUs": "About Us",
     "profile": "Company Profile",
     "patents": "Company Patents",
-    "honor": "Qualification Honors"
+    "honor": "Qualification Honors",
+    "companyTrends": "Company Trends",
+    "news": "Company News",
+    "product": "Products",
+    "hard": "Hard coating",
+    "decorative": "Decorative coating",
+    "photo": "Photoelectric film",
+    "research": "Scientific research coating",
+    "functional": "Functional coating",
+    "vacuum": "Vacuum coating auxiliary",
+    "contactUs": "Contact Us",
+    "contactInfo": "Contact Information"
   },
   "companyProfile": {
     "title1": "1. Company profile and business scope",

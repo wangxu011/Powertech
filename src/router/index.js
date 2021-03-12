@@ -29,13 +29,13 @@ const routes = [
     ]
   },
   {
-    path: '/productData',
-    name: 'ProductData',
-    component: () => import('../views/productData/Index.vue'),
+    path: '/companyTrends',
+    name: 'CompanyTrends',
+    component: () => import('../views/companyTrends/Index.vue'),
     children: [
       {
-        path: '/productData/technicalIndex',
-        component:() => import('../views/productData/TechnicalIndex.vue')
+        path: '/companyTrends/news',
+        component: () => import('../views/companyTrends/News.vue')
       }
     ]
   }
