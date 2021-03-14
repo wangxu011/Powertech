@@ -1,6 +1,8 @@
 {
   "common": {
-    "hotline": "咨询热线"
+    "hotline": "咨询热线",
+    "right": "版权所有：北京实力源科技开发有限责任公司 备案号： 京ICP备13017475号",
+    "link": "友情链接"
   },
   "menu": {
     "home": "首页",
@@ -10,6 +12,13 @@
     "honor": "资质荣誉",
     "companyTrends": "公司动态",
     "news": "公司新闻",
+    "product": "产品中心",
+    "hard": "硬质涂层设备",
+    "decorative": "装饰涂层设备",
+    "photo": "光电薄膜设备",
+    "research": "科研类涂层设备",
+    "functional": "Functional coating",
+    "vacuum": "Vacuum coating auxiliary",
     "contactUs": "联系我们",
     "contactInfo": "联系方式"
   },
@@ -28,5 +37,10 @@
   },
   "honor": {
     "content": "企业资质与荣誉"
-  }
+  },
+  "news": [
+    {
+      
+    }
+  ]
 }

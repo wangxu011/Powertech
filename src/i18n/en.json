@@ -1,6 +1,8 @@
 {
   "common": {
-    "hotline": "Consult Hotline"
+    "hotline": "Service Hotline",
+    "right": "Rights Reserved: Beijing Powertech Co.,Ltd. ICP No.13017475",
+    "link": "Links"
   },
   "menu": {
     "home": "Home",

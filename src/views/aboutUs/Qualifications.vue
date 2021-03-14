@@ -45,21 +45,18 @@ import axios from '@/axios/index.js'
   .title{
     font-size: 40px;
     text-align: center;
-  }
-  .sub_title{
-    text-align: center;
-    line-height: 2em;
+    margin-bottom: 20px;
   }
   .img_wrapper{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     .inner_wrapper{
-      margin-left: 48px;
-      margin-top: 48px;
+      margin-left: 30px;
+      margin-top: 30px;
       .item{
-        width: 280px;
-        height: 200px;
+        width: 240px;
+        height: 160px;
         border: 1px solid #eee;
         border-radius: 6px;
         position: relative;

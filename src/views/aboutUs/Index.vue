@@ -47,7 +47,7 @@ import SideBar from '../../components/SideBar'
     background-position: center;
   }
   .content_wrap{
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
     // border: 1px solid red;
     display: flex;

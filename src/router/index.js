@@ -38,6 +38,17 @@ const routes = [
         component: () => import('../views/companyTrends/News.vue')
       }
     ]
+  },
+  {
+    path: '/contactUs',
+    name: 'ContactUs',
+    component: () => import('../views/contactUs/Index.vue'),
+    children: [
+      {
+        path: '/contactUs/info',
+        component: () => import('../views/contactUs/ContactInfo.vue')
+      }
+    ]
   }
 ]
 

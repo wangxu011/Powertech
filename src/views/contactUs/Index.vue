@@ -1,5 +1,5 @@
 <template>
-  <div class="news_container">
+  <div class="technical_container">
     <div class="banner_wrap"></div>
     <div class="content_wrap">
       <router-view></router-view>
@@ -17,7 +17,7 @@
 </script>
 
 <style lang='scss' scoped>
-.news_container{
+.technical_container{
   .banner_wrap{
     height: 300px;
     background-image: url('../../assets/images/common/banner.jpg');

@@ -1,6 +1,6 @@
 <template>
   <div class="content_container">
-    <p class="title">技术指标</p>
+    <p class="title">{{$t('menu.contactInfo')}}</p>
   </div>
 </template>
 
@@ -19,15 +19,6 @@
     font-size: 40px;
     text-align: center;
     margin-bottom: 50px;
-  }
-  .sub_title{
-    text-align: center;
-    line-height: 2em;
-  }
-  .img_wrap{
-    img{
-      width: 100%;
-    }
   }
 }
 </style>

@@ -58,6 +58,10 @@
             <template slot="title">{{$t("menu.companyTrends")}}</template>
             <el-menu-item index="/companyTrends/news">{{$t("menu.news")}}</el-menu-item>
           </el-submenu>
+          <el-submenu index="/contactUs">
+            <template slot="title">{{$t("menu.contactUs")}}</template>
+            <el-menu-item index="/contactUs/info">{{$t("menu.contactInfo")}}</el-menu-item>
+          </el-submenu>
         </el-menu>
       </div>
     </div>
@@ -107,13 +111,13 @@ import Cookies from 'js-cookie'
     background-color: #ffffff;
     z-index: 1000;
     .top_part{
-      width: 1400px;
+      width: 1200px;
       height: 100px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
       .main_content{
-        width: 1100px;
+        width: 1000px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -177,7 +181,7 @@ import Cookies from 'js-cookie'
     .nav{
       background-color: #1e50ae;
       ::v-deep .el-menu {
-        width: 1400px;
+        width: 1200px;
         margin: 0 auto;
         .el-menu-item{
           width: 124px;
