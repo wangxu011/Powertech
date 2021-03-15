@@ -35,7 +35,13 @@ const routes = [
     children: [
       {
         path: '/companyTrends/news',
-        component: () => import('../views/companyTrends/News.vue')
+        component: () => import('../views/companyTrends/News.vue'),
+        children: [
+          {
+            path: '/companyTrends/news/:id',
+            component: () => import('../views/companyTrends/Detail.vue')
+          }
+        ]
       }
     ]
   },
