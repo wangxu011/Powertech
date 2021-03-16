@@ -1,9 +1,90 @@
 {
   "value": [
     {
+      "id": 10,
+      "title": "2020稀土永磁论坛",
+      "describe": "2020年12月3日-4日，中国稀土行业协会磁性材料分会二届三次会员大会暨2020中国稀土永磁论坛在海南省海口市顺利召开",
+      "cover_path": "/images/news/10/cover.jpg",
+      "publish_date": "05",
+      "publish_year": "2020-12",
+      "detail": "<p class='text'>2020年12月3日-4日，中国稀土行业协会磁性材料分会二届三次会员大会暨2020中国稀土永磁论坛在海南省海口市顺利召开，磁性材料分会会员单位参加了此次会议。</p><p class='text'>3日下午，召开了2020年中国稀土行业协会磁性材料分二届三次会员大会，北方稀土、南方稀土、五矿稀土等嘉宾以及来自稀土磁性材料的生产、研发及应用企业代表180余人出席会议。</p><p>4日，举办了2020年中国稀土永磁论坛，来自磁性材料分会会员单位及磁性材料上下游相关企业、科研院所的300余名代表参加了本次论坛。</p><div class='img_wrap'><img src='/images/news/10/1.jpg' /></div><div class='img_wrap'><img src='/images/news/10/2.jpg' /></div><div class='img_wrap'><img src='/images/news/10/3.jpg' /></div>"
+    },
+    {
+      "id": 9,
+      "title": "宁波市磁性材料商会二届一次会员代表大会",
+      "describe": "9月19—21日在宁波泛太平洋大酒店举办中国(宁波)磁性材料创新应用论坛。",
+      "cover_path": "/images/news/9/cover.jpg",
+      "publish_date": "22",
+      "publish_year": "2020-09",
+      "detail": "<p class='text'>为了进一步加强磁性产业先进技术、应用领域、智能制造等方面的融合与创新，提升核心竞争力，促进行业的高质量发展。9月19—21日在宁波泛太平洋大酒店举办中国(宁波)磁性材料创新应用论坛。</p><p class='text'>此次峰会力邀国内顶级院士专家、材料企业及终端客户进行无缝对接，共同推进磁材行业高质量发展。</p><p>本次会议在各行业专家、企业家们热烈的掌声中圆满结束，企业代表们表示对商会未来的工作很有信心，这是对商会秘书处莫大的鼓舞，秘书处也会努力遵循“四服”宗旨，使商会真正成为“企业之家”、“行业之声”和“政府助手”，发挥好企业政府之间的桥梁纽带作用。</p><div class='img_wrap'><img src='/images/news/9/1.jpg' /></div><div class='img_wrap'><img src='/images/news/9/2.jpg' /></div><div class='img_wrap'><img src='/images/news/9/3.jpg' /></div><div class='img_wrap'><img src='/images/news/9/4.jpg' /></div>"
+    },
+    {
+      "id": 8,
+      "title": "2020年中国稀土行业协会二届十二次常务理事会、二届四次会员大会",
+      "describe": "我司受邀参加在四川成都召开的“二届十二届常务理事会、二届四次会员大会暨院士、专家专题报告会。",
+      "cover_path": "/images/news/8/cover.jpg",
+      "publish_date": "16",
+      "publish_year": "2020-09",
+      "detail": "<p class='text'>2020年是我国“十三五”规划目标收官，“十四五”规划谋篇布局之年。站在“两个一百年”奋斗目标的历史交汇点上，面临更加复杂、严峻的国内外环境，回顾过去、展望未来，中国稀土行业的高质量发展，任务艰巨而繁重。</p><p class='text'>我司受邀参加在四川成都召开的“二届十二届常务理事会、二届四次会员大会暨院士、专家专题报告会。</p><div class='img_wrap'><img src='/images/news/8/cover.jpg' /></div><div class='img_wrap'><img src='/images/news/8/1.jpg' /></div>"
+    },
+    {
+      "id": 7,
+      "title": "VCCS2019深圳真空镀膜大会",
+      "describe": "2019深圳真空镀膜大会，2019年11月21-23日在深圳维纳斯皇家酒店举办。",
+      "cover_path": "/images/news/7/cover.jpg",
+      "publish_date": "25",
+      "publish_year": "2019-11",
+      "detail": "<p class='text'>2019深圳真空镀膜大会，2019年11月21-23日在深圳维纳斯皇家酒店举办。本届大会以硬质涂层与高端镀膜装备应用为主要方向，涉及产业有航天、航空、海洋、刀具、模具、纺织、轴承、汽车、发动机、军工等应用领域。</p><div class='img_wrap'><img src='/images/news/7/1.jpg' /></div><div class='img_wrap'><img src='/images/news/7/2.jpg' /></div><div class='img_wrap'><img src='/images/news/7/3.jpg' /></div>"
+    },
+    {
+      "id": 6,
+      "title": "2019国家先进涂层和刀具材料",
+      "describe": "由台州学院和中国刀协切削先进技术研究会高效加工技术专业委员会（原华东分会）协办的2019国际先进涂层和刀具材料会议（ICACMCT2019）在台州成功召开。",
+      "cover_path": "/images/news/6/cover.jpg",
+      "publish_date": "25",
+      "publish_year": "2019-11",
+      "detail": "<p class='text'>由台州学院和中国刀协切削先进技术研究会高效加工技术专业委员会（原华东分会）协办的2019国际先进涂层和刀具材料会议（ICACMCT2019）在台州成功召开。本次大会主席为我校国家特聘专家弗拉基米尔列夫琴科教授，大会副主席为南京航空航天大学何宁教授；学术委员会主席由广东工业大学副校长王成勇担任。</p><p class='text'>大会吸引了来自中国、俄罗斯、乌克兰、亚美尼亚等国家的90余位专家学者和企业界人士参加。</p><div class='img_wrap'><img src='/images/news/6/1.jpg' /></div><div class='img_wrap'><img src='/images/news/6/2.jpg' /></div><div class='img_wrap'><img src='/images/news/6/3.jpg' /></div><div class='img_wrap'><img src='/images/news/6/4.jpg' /></div>"
+    },
+    {
+      "id": 5,
+      "title": "2019中国（赣州）稀土永磁技术论坛",
+      "describe": "中国稀土行业协会磁性材料分会在江西 赣州市举办，此次会议主题为“科技创新、高质量发展”。",
+      "cover_path": "/images/news/5/cover.jpg",
+      "publish_date": "10",
+      "publish_year": "2019-11",
+      "detail": "<p class='text'>中国稀土行业协会磁性材料分会在江西 赣州市举办，此次会议主题为“科技创新、高质量发展”。</p><div class='img_wrap'><img src='/images/news/5/1.jpg' /></div><div class='img_wrap'><img src='/images/news/5/2.jpg' /></div><div class='img_wrap'><img src='/images/news/5/3.jpg' /></div>"
+    },
+    {
+      "id": 4,
+      "title": "2019年第四届中国（宁波）国际磁性材料产业、技术与市场高峰论坛",
+      "describe": "2019年第四届中国（宁波）国际磁性材料产业、技术与市场高峰论坛在宁波洲际酒店盛大举行",
+      "cover_path": "/images/news/4/cover.jpg",
+      "publish_date": "25",
+      "publish_year": "2019-09",
+      "detail": "<p class='text'>2019年第四届中国（宁波）国际磁性材料产业、技术与市场高峰论坛在宁波洲际酒店盛大举行。北京实力源应邀参加，实力源公司自2014年进入磁材行业起持续稳步发展，技术不断革新，为实现“智能制造”不断创新，与广大客户共同发展。</p><div class='img_wrap'><img src='/images/news/4/1.jpg' /></div><div class='img_wrap'><img src='/images/news/4/2.jpg' /></div><div class='img_wrap'><img src='/images/news/4/3.jpg' /></div>"
+    },
+    {
+      "id": 3,
+      "title": "VCCS 2019深圳真空镀膜大会",
+      "describe": "2019深圳真空镀膜大会，北京实力源科技应邀参加（S15展位）",
+      "cover_path": "/images/news/3/cover.jpg",
+      "publish_date": "22",
+      "publish_year": "2019-06",
+      "detail": "<p class='text'>2019深圳真空镀膜大会，北京实力源科技应邀参加（S15展位），实力源公司针对手机、卫浴、半导体、汽车、工模具、磁性材料、航空航天、线路板、柔性材料、科研实验等行业推出超前真空涂层发展方向及技术，得到业内专家、企业广泛认可。</p><div class='img_wrap'><img src='/images/news/3/1.jpg' /></div><div class='img_wrap'><img src='/images/news/3/2.jpg' /></div><div class='img_wrap'><img src='/images/news/3/3.jpg' /></div><div class='img_wrap'><img src='/images/news/3/4.jpg' /></div>"
+    },
+    {
+      "id": 2,
+      "title": "中国稀土行业协会第二届第七次常务理事会、第二届第三次会员大会",
+      "describe": "中国稀土行业协会第二届第七次常务理事会、第二届第三次会员大会实力源应邀参加，在北京裕龙国际酒店顺利召开。",
+      "cover_path": "/images/news/2/cover.jpg",
+      "publish_date": "28",
+      "publish_year": "2019-04",
+      "detail": "<p class='text'>中国稀土行业协会第二届第七次常务理事会、第二届第三次会员大会实力源应邀参加，在北京裕龙国际酒店顺利召开。</p><div class='img_wrap'><img src='/images/news/2/cover.jpg' /></div><div class='img_wrap'><img src='/images/news/2/1.jpg' /></div>"
+    },
+    {
       "id": 1,
       "title": "2019第十五届国际真空展览会",
-      "discribe": "2019第十五届真空国际展览会在北京拉开序幕，北京实力源科技展出最新型，工模具涂层设备、装饰涂层设备、磁性材料涂层设备、科研设备等多款新机型亮相。",
+      "describe": "2019第十五届真空国际展览会在北京拉开序幕，北京实力源科技展出最新型，工模具涂层设备、装饰涂层设备、磁性材料涂层设备、科研设备等多款新机型亮相。",
       "cover_path": "/images/news/1/cover.jpg",
       "publish_date": "04",
       "publish_year": "2019-04",

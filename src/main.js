@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
 
+import './assets/styles/my-element.scss'
+
 import { 
   Menu,
   Submenu,
@@ -10,7 +12,8 @@ import {
   MenuItemGroup,
   Carousel,
   CarouselItem,
-  Image
+  Image,
+  Pagination
 } from 'element-ui'
 
 Vue.use(Menu)
@@ -20,6 +23,7 @@ Vue.use(MenuItemGroup)
 Vue.use(Carousel)
 Vue.use(CarouselItem)
 Vue.use(Image)
+Vue.use(Pagination)
 
 Vue.config.productionTip = false
 

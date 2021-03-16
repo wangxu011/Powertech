@@ -1,55 +1,106 @@
 <template>
   <div class="content_container">
-    <p class="title">{{$t('menu.news')}}</p>
-    <div class="list_wrap">
-      <div class="news_wrap" 
-        v-for="news in newsList" 
-        :key="news.id"
-        @click="toDetail(news.id)"> 
-        <div class="cover_wrap">
-          <img class="cover" :src="news.cover_path">
-        </div>
-        <div class="content_wrap">
-          <p class="sub_title">{{news.title}}</p>
-          <p class="discribe">{{news.discribe}}</p>
-        </div>
-        <div class="time_wrap">
-          <p class="date">{{news.publish_date}}</p>
-          <p class="year">{{news.publish_year}}</p>
+    <div class="news_wrapper" v-if="!showDetail">
+      <p class="title">{{$t('menu.news')}}</p>
+      <div class="list_wrap">
+        <div class="news_wrap" 
+          v-for="news in newsList" 
+          :key="news.id"
+          @click="toDetail(news)"> 
+          <div class="cover_wrap">
+            <img class="cover" :src="news.cover_path">
+          </div>
+          <div class="content_wrap">
+            <p class="sub_title">{{news.title}}</p>
+            <p class="discribe">{{news.describe}}</p>
+          </div>
+          <div class="time_wrap">
+            <p class="date">{{news.publish_date}}</p>
+            <p class="year">{{news.publish_year}}</p>
+          </div>
         </div>
       </div>
+      <el-pagination 
+        background 
+        :total="totalList.length"
+        :page-size="5"
+        layout="total,prev,pager,next,jumper"
+        @current-change="handlePageChange">
+      </el-pagination>
     </div>
-    <router-view></router-view>
+    <router-view v-else></router-view>
   </div>
 </template>
 
 <script>
 import axios from '@/axios/index.js'
 
+import Store from '../../store/index'
+
   export default {
     data () {
       return {
-        newsList: []
+        totalList: [],
+        newsList: [],
+        currentPage: 1,
+        pageSize: 5,
+        // 是否显示详情页
+        showDetail: null
       }
     },
     created() {
-      axios.get('/data/news.json').then(res => {
-        this.newsList = res.value
-        console .log(res)
-      })
+      const pathLength = this.$route.path.split('/').length
+      if(pathLength === 3) {
+        this.showDetail = false
+        axios.get('/data/news.json').then(res => {
+          this.totalList = res.value
+          this.getList(this.currentPage, this.pageSize)
+        })
+      }else {
+        this.showDetail = true
+        console.log("news json: ", JSON.parse(localStorage.getItem('newsDetail')))
+        this.selectedNews = JSON.parse(localStorage.getItem('newsDetail')) 
+      }
+      // // 通过localStorage判断当前页面时候是否为新闻详情
+      // if(localStorage.getItem('showNews')){
+      //   this.showDetail = true
+      //   console.log("news json: ", JSON.parse(localStorage.getItem('newsDetail')))
+      //   this.selectedNews = JSON.parse(localStorage.getItem('newsDetail')) 
+      // } else {
+      //   this.showDetail = false
+        
+      // }
     },
     methods: {
-      toDetail(id) {
-        this.$router.push({path: `/companyTrends/news/${id}`})
+      toDetail(news) {
+        this.showDetail = true
+        // 将新闻详情存入localStorage中
+        localStorage.setItem('newsDetail', JSON.stringify(news))
+        this.$router.push({path: `/companyTrends/news/${news.id}`})
+      },
+      getList(page, size = 5) {
+        this.newsList = this.totalList.slice((page-1)*size, page*size)
+      },
+      handlePageChange(page) {
+        this.getList(page, this.pageSize)
       }
+    },
+    watch: {
+      // $route: function (val) {
+      //   const pathLength = val.path.split('/').length
+      //   console.log('bobobobobo')
+      //   if(pathLength === 3) {
+      //     this.showDetail = false
+      //   } else {
+      //     this.showDetail = true
+      //   }
+      // }
     }
   }
 </script>
 
 <style lang='scss' scoped>
 .content_container{
-  border: 1px solid red;
-  position: relative;
   .title{
     font-size: 40px;
     text-align: center;
