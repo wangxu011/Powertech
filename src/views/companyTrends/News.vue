@@ -24,6 +24,7 @@
         background 
         :total="totalList.length"
         :page-size="5"
+        :current-page="currentPage"
         layout="total,prev,pager,next,jumper"
         @current-change="handlePageChange">
       </el-pagination>
@@ -35,7 +36,7 @@
 <script>
 import axios from '@/axios/index.js'
 
-import Store from '../../store/index'
+import Cookies from 'js-cookie'
 
   export default {
     data () {
@@ -45,31 +46,21 @@ import Store from '../../store/index'
         currentPage: 1,
         pageSize: 5,
         // 是否显示详情页
-        showDetail: null
+        showDetail: null,
+        // 调用中文json还是英文json
+        dataPath: ''
       }
     },
     created() {
+      console.log(this.$store.state.locale)
       const pathLength = this.$route.path.split('/').length
       if(pathLength === 3) {
-        this.showDetail = false
-        axios.get('/data/news.json').then(res => {
-          this.totalList = res.value
-          this.getList(this.currentPage, this.pageSize)
-        })
+        this.dataPath = Cookies.get('lang') === 'CN' ? '/data/news.json' : '/data/news_en.json'
+        this.getNewsList(this.dataPath)
       }else {
         this.showDetail = true
-        console.log("news json: ", JSON.parse(localStorage.getItem('newsDetail')))
         this.selectedNews = JSON.parse(localStorage.getItem('newsDetail')) 
       }
-      // // 通过localStorage判断当前页面时候是否为新闻详情
-      // if(localStorage.getItem('showNews')){
-      //   this.showDetail = true
-      //   console.log("news json: ", JSON.parse(localStorage.getItem('newsDetail')))
-      //   this.selectedNews = JSON.parse(localStorage.getItem('newsDetail')) 
-      // } else {
-      //   this.showDetail = false
-        
-      // }
     },
     methods: {
       toDetail(news) {
@@ -82,19 +73,36 @@ import Store from '../../store/index'
         this.newsList = this.totalList.slice((page-1)*size, page*size)
       },
       handlePageChange(page) {
+        this.currentPage = page
         this.getList(page, this.pageSize)
+      },
+      getNewsList(dataPath) {
+        this.showDetail = false
+        axios.get(dataPath).then(res => {
+          this.totalList = res.value
+          this.getList(this.currentPage, this.pageSize)
+        })
       }
     },
     watch: {
-      // $route: function (val) {
-      //   const pathLength = val.path.split('/').length
-      //   console.log('bobobobobo')
-      //   if(pathLength === 3) {
-      //     this.showDetail = false
-      //   } else {
-      //     this.showDetail = true
-      //   }
-      // }
+      $route: function (val) {
+        const pathLength = val.path.split('/').length
+        if(pathLength === 3) {
+          this.dataPath = Cookies.get('lang') === 'CN' ? '/data/news.json' : '/data/news_en.json'
+          this.getNewsList(this.dataPath)
+        } 
+      },
+      '$store.state.locale': function (val) {
+        const pathLength = this.$route.path.split('/').length
+        // 先判断如果处在详情页，先跳转回列表页面，再切换语言
+        if(pathLength === 4) {
+          this.$router.push({
+            path: '/companyTrends/news'
+          })
+        }
+        this.dataPath = val === 'CN' ? '/data/news.json' : '/data/news_en.json'
+        this.getNewsList(this.dataPath)
+      }
     }
   }
 </script>

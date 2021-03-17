@@ -87,10 +87,10 @@ import Cookies from 'js-cookie'
     },
     methods: {
       switchLang(locale) {
-        console.log(locale)
         this.locale = locale
         Cookies.set('lang', locale)
         this.$i18n.locale = locale
+        this.$store.commit('SET_LOCALE', locale)
       }
     },
     computed: {
