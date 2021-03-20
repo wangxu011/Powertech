@@ -38,5 +38,39 @@
   },
   "honor": {
     "content": "Company qualification and honor"
+  },
+  "contactUs": {
+    "companyName": {
+      "label": "Company",
+      "value": "Beijing Powertech Technology Co., Ltd"
+    },
+    "address": {
+      "label": "Address",
+      "value": "No.35 jingsheng south no.2 street, tong zhou district,beijing"
+    },
+    "zipCode": {
+      "label": "Zip code",
+      "value": "101102"
+    },
+    "phone": {
+      "label": "Tel",
+      "value": "86-10-83865086"
+    },
+    "fax": {
+      "label": "Fax",
+      "value": "86-10-83865286"
+    },
+    "person": {
+      "label": "Contact",
+      "value": "Mr. Liu 13811401500"
+    },
+    "mail": {
+      "label": "Email",
+      "value": "liubin@powertech.com.cn / sp139100@163.com"
+    },
+    "website": {
+      "label": "Website",
+      "value": "http://www.powertech.com.cn"
+    }
   }
 }

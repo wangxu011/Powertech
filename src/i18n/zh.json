@@ -39,9 +39,38 @@
   "honor": {
     "content": "企业资质与荣誉"
   },
-  "news": [
-    {
-      
+  "contactUs": {
+    "companyName": {
+      "label": "公司名称",
+      "value": "北京实力源科技开发有限责任公司"
+    },
+    "address": {
+      "label": "公司地址",
+      "value": "北京市通州区马驹桥镇金桥科技产业基地景盛南二街35号"
+    },
+    "zipCode": {
+      "label": "邮政编码",
+      "value": "101102"
+    },
+    "phone": {
+      "label": "公司电话",
+      "value": "86-10-83865086"
+    },
+    "fax": {
+      "label": "公司传真",
+      "value": "86-10-83865286"
+    },
+    "person": {
+      "label": "联系人",
+      "value": "刘先生 13811401500"
+    },
+    "mail": {
+      "label": "邮箱",
+      "value": "liubin@powertech.com.cn / sp139100@163.com"
+    },
+    "website": {
+      "label": "网址",
+      "value": "http://www.powertech.com.cn"
     }
-  ]
+  }
 }
