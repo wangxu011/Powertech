@@ -27,7 +27,7 @@
   .content_wrap{
     width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+    // border: 1px solid red;
     margin-top: 50px;
   }
 }
