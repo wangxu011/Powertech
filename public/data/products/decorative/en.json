@@ -1,0 +1,49 @@
+{
+  "value": [
+    {
+      "id": 5,
+      "name": "Multi-arc sputtering composite coating equipment",
+      "describe": "<p class='describe'>Multi-arc ion coating equipment has fast deposition speed, high ionization rate, large ion energy, good film bonding force, simple equipment operation, low operating cost and high production efficiency. The micron-thickness hard coating can effectively protect the appearance of the product being plated. Low-temperature coating process can achieve deposition on a variety of materials, and multiple combinations of coating processes can produce more colors.</p>",
+      "cover_img_path": "/images/products/decorative/5/cover.jpg",
+      "img_path_list": ["/images/products/decorative/5/1.jpg","/images/products/decorative/5/2.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/decorative/5/tech.jpg'></div>",
+      "scope": "<div class='small_wrap'><div class='item_wrap'><img src='/images/products/decorative/5/scope1.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/5/scope2.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/5/scope3.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/5/scope4.jpg'></div></div>"
+    },
+    {
+      "id": 4,
+      "name": "Winding magnetron sputtering/evaporation coating equipment",
+      "describe": "<p class='describe'>The high-vacuum roll-to-roll coating machine combines high efficiency, stability, and cost-effectiveness. It is suitable for various glass substrates and flexible substrates in industries such as electronic paper, flexible circuit boards, solar thin film batteries, water and oxygen barrier films, and optical coating touch panels. It can also be applied to cigarette pack direct coating paper, laser, anti-counterfeiting, advanced hot stamping materials, high-end color printing packaging coating, fully compatible media coating, heat insulation and energy saving film, shielding film, conductive film and other films. Machinable materials include: ABS, PS, PP, PC, PVC, TPU, nylon, ceramics, metals, etc.</p>",
+      "cover_img_path": "/images/products/decorative/4/cover.jpg",
+      "img_path_list": ["/images/products/decorative/4/1.jpg","/images/products/decorative/4/2.jpg","/images/products/decorative/4/3.jpg","/images/products/decorative/4/4.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/decorative/4/tech.jpg'></div>",
+      "scope": "<p class='title'>Packaging industry: cigarette paper packaging, food packaging, barrier film and other</p><p class='title'>electronic industries: flexible circuit boards, displays, transparent conductive films and other</p><p class='title'>anti-counterfeiting labels and materials: anti-counterfeiting thread, anti-counterfeiting film</p><p class='title'>Building materials industry: metal coils, refraction/reflective materials, composite materials , Decorative materials and other</p><p class='title'>aerospace: anti-reflection film, refraction film, filter film, insulating/protective film, etc.</p><p class='title'>Electronics industry: flexible circuit boards, display screens</p><div class='small_wrap'><div class='item_wrap'><img src='/images/products/decorative/4/scope1.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/4/scope2.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/4/scope3.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/4/scope4.jpg'></div></div>"
+    },
+    {
+      "id": 3,
+      "name": "Continuous composite coating equipment",
+      "describe": "<p class='describe'>Conjoined coating equipment is based on the strength of the source to ensure high quality, high efficiency, and high stability, and launch a more perfect vacuum coating mass production solution. Continuous coating can prevent the coating chamber from being exposed to the atmosphere, which ensures the stability of the coating process and also saves pumping time and doubles the production efficiency. Conjoined equipment through the simplified and optimized configuration of the vacuum unit, the energy consumption of the conjoined equipment for plating the same number of products is about 60% of the energy consumption of the single equipment, effectively saving energy, reducing costs for enterprises, and greatly shortening the equipment investment payback period.</p>",
+      "cover_img_path": "/images/products/decorative/3/cover.jpg",
+      "img_path_list": ["/images/products/decorative/3/cover.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/decorative/3/tech.jpg'></div>",
+      "scope": "<p class='title'>Mobile phone computer accessories, sanitary ware, household appliances accessories, hardware and electrical accessories, car decoration and accessories</p><div class='big_wrap'><img src='/images/products/decorative/3/scope.jpg'></div><div class='small_wrap'><div class='item_wrap'><img src='/images/products/decorative/3/1.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/3/2.jpg'></div></div>"
+    },
+    {
+      "id": 2,
+      "name": "MF sputtering coating equipment",
+      "describe": "<p class='describe'>The medium frequency magnetron sputtering coating equipment has the advantages of fast sputtering rate and high deposition rate, which completely overcomes hitting the target arc and effectively controls the poisoning phenomenon. Alloy film, multilayer composite film, etc. can be plated on the surface of metal products and non-metal products. The product has beautiful coating, fine surface, wear-resistant and color-resistant characteristics, and can be plated in a variety of colors. At present, it has been widely used by well-known domestic OEM manufacturers and has the highest market share. It is widely used in surface treatment and processing of mobile phone cases, computer accessories, magnesium alloy parts and high-end bathroom hardware.</p>",
+      "cover_img_path": "/images/products/decorative/2/cover.jpg",
+      "img_path_list": ["/images/products/decorative/2/1.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/decorative/2/tech.jpg'></div>",
+      "scope": "<p class='title'>Mobile phone accessories, ceramic tiles, hardware, watch straps, handicrafts, jewelry</p><p class='title'>golf equipment, electronic products, tableware and knives</p><div class='big_wrap'><img src='/images/products/decorative/2/scope.jpg'></div>"
+    },
+    {
+      "id": 1,
+      "name": "Watch coating equipment",
+      "describe": "<p class='describe'>Watch jewelry coating equipment, through cathodic arc, high-power intermediate frequency sputtering and DC sputtering, auxiliary high-voltage ion bombardment and pulse bias, the coating is denser, and the adhesion and gloss are increased. The equipment can be coated with metal film, composite film, multi-layer composite film, etc.</p>",
+      "cover_img_path": "/images/products/decorative/1/cover.jpg",
+      "img_path_list": ["/images/products/decorative/1/1.jpg","/images/products/decorative/1/2.jpg","/images/products/decorative/1/3.jpg","/images/products/decorative/1/4.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/decorative/1/tech1.jpg'></div>",
+      "scope": "<div class='small_wrap'><div class='item_wrap'><img src='/images/products/decorative/1/1.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/1/2.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/1/3.jpg'></div><div class='item_wrap'><img src='/images/products/decorative/1/4.jpg'></div></div>"
+    }
+  ]
+}

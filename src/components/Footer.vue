@@ -3,13 +3,10 @@
     <div class="top_wrap">
       <div class="link_wrap">
         <span class="link">{{$t('common.link')}}：</span>
-        <a href="http://www.chinesevacuum.com/" target="_blank">中国真空网</a>
-        <a href="http://www.adsalecprj.com/sc/" target="_blank">中国机械与金属</a>
-        <a href="http://www.cut35.com/" target="_blank">中国刀具商务网</a>
-        <a href="http://www.terasolar.com.cn/" target="_blank">
-          北京兆阳光热技术有限公司
-        </a>
-        <a href="http://beijingvacuum.com/" target="_blank">北京真空协会</a>
+        <a href="http://www.chinesevacuum.com/" target="_blank">{{$t('link.vacuum')}}</a>
+        <a href="http://www.cut35.com/" target="_blank">{{$t('link.cutter')}}</a>
+        <a href="http://www.terasolar.com.cn/" target="_blank">{{$t('link.teraSolar')}}</a>
+        <a href="https://www.tzc.edu.cn/" target="_blank">{{$t('link.taizhou')}}</a>
       </div>
       <div class="middle_wrap">
         <div class="menu_wrap">
@@ -54,14 +51,16 @@
             ]
           },
           {
-            title: 'menu.product',
+            title: 'menu.products',
             children: [
-              { title: 'menu.hard', path: '/product/hard' },
-              { title: 'menu.hard', path: '/product/hard' },
-              { title: 'menu.hard', path: '/product/hard' },
-              { title: 'menu.hard', path: '/product/hard' },
-              { title: 'menu.hard', path: '/product/hard' },
-              { title: 'menu.hard', path: '/product/hard' }
+              { title: 'menu.hard', path: '/products/hard' },
+              { title: 'menu.decorative', path: '/products/decorative' },
+              { title: 'menu.photoelectric', path: '/products/photoelectric' },
+              { title: 'menu.research', path: '/products/research' },
+              { title: 'menu.magnetic', path: '/products/magnetic' },
+              { title: 'menu.fuel', path: '/products/fuel' },
+              { title: 'menu.ion', path: '/products/ion' },
+              { title: 'menu.auxiliary', path: '/products/auxiliary' }
             ]
           },
           {

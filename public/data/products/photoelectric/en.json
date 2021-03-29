@@ -1,0 +1,22 @@
+{
+  "value": [
+    {
+      "id": 2,
+      "name": "AF waterproof coating equipment",
+      "describe": "<p class='describe'>The AF coating equipment is equipped with a high-efficiency resistance heating evaporation device and an advanced plasma device. The effective combination of heating evaporation coating technology and magnetron sputtering coating technology makes the equipment applicable to a wider range and can obtain coatings with a variety of properties. AF coating can be added to the decoration and functional film to make it have a variety of colors and at the same time have super waterproof, anti-oil stain, anti-bacterial, anti-fingerprint and long-lasting and durable surface characteristics.</p>",
+      "cover_img_path": "/images/products/photoelectric/2/cover.jpg",
+      "img_path_list": ["/images/products/photoelectric/2/1.jpg","/images/products/photoelectric/2/2.jpg","/images/products/photoelectric/2/3.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/photoelectric/2/tech.jpg'></div>",
+      "scope": "<p class='title'>Mobile phone, computer, sanitary ware, household appliances, car decoration</p><div class='big_wrap'><img src='/images/products/photoelectric/2/scope.jpg'></div>"
+    },
+    {
+      "id": 1,
+      "name": "Optical magnetron sputtering coating equipment",
+      "describe": "<p class='describe'>Our optical magnetron sputtering coating machine technology has a stable film forming system, and the supporting precise control method has been widely used by major companies.</p><p class='describe'>This type of equipment is equipped with a complete set of available chemical equipment to maximize customer productivity and efficiency.   Our exclusive SI high ionization target source, helps complements the preparation of balanced high refractive film in production. This technology can produce AR+AF film and colorful gradient and optical film. This type of equipment has a low-temperature film forming form, which can be used for the production of surface films of various products. The equipment has fully automatic sputtering control mode, real-time monitors the state of the film, to achieve stable, batch production.</p>",
+      "cover_img_path": "/images/products/photoelectric/1/cover.jpg",
+      "img_path_list": ["/images/products/photoelectric/1/1.jpg","/images/products/photoelectric/1/2.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/photoelectric/1/tech.jpg'></div>",
+      "scope": "<p class='title'>For mobile phones, digital products, sanitary wares and other products that also have decorative requirements, the optical coating realizes a variety of colors through the underlying color film and transparent medium multilayer film.</p><div class='small_wrap'><div class='item_wrap'><img src='/images/products/photoelectric/1/scope1.jpg'></div><div class='item_wrap'><img src='/images/products/photoelectric/1/scope2.jpg'></div><div class='item_wrap'><img src='/images/products/photoelectric/1/scope3.jpg'></div><div class='item_wrap'><img src='/images/products/photoelectric/1/scope4.jpg'></div></div>"
+    }
+  ]
+}

@@ -46,6 +46,23 @@ const routes = [
     ]
   },
   {
+    path: '/products',
+    name: 'Products',
+    component: () => import('../views/products/Index.vue'),
+    children: [
+      {
+        path: '/products/*',
+        component: () => import('../views/products/Product.vue'),
+        children: [
+          {
+            path: '/products/*/:id',
+            component: () => import('../views/products/Detail.vue')
+          }
+        ]
+      }
+    ]
+  },
+  {
     path: '/contactUs',
     name: 'ContactUs',
     component: () => import('../views/contactUs/Index.vue'),

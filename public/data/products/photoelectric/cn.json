@@ -1,0 +1,22 @@
+{
+  "value": [
+    {
+      "id": 2,
+      "name": "AF防水涂层设备",
+      "describe": "<p class='describe'>AF 涂层设备配置了高效的电阻加热蒸发装置和先进的等离子体装置，加热蒸发镀膜技术和磁控溅射镀膜技术的有效结合，设备的适用范围更广泛，可得到多种性能的膜层。可在装饰和功能薄膜上加镀AF涂层，使其具备多种色彩的同时又具有超防水、抗油污、抗菌、防指纹并长效耐久之表面特性。</p>",
+      "cover_img_path": "/images/products/photoelectric/2/cover.jpg",
+      "img_path_list": ["/images/products/photoelectric/2/1.jpg","/images/products/photoelectric/2/2.jpg","/images/products/photoelectric/2/3.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/photoelectric/2/tech.jpg'></div>",
+      "scope": "<p class='title'>手机电脑  洁具卫浴  家用电器  汽车装饰</p><div class='big_wrap'><img src='/images/products/photoelectric/2/scope.jpg'></div>"
+    },
+    {
+      "id": 1,
+      "name": "光学磁控溅射镀膜设备",
+      "describe": "<p class='describe'>我司光学磁控溅射镀膜机技术拥有稳定的成膜系统，和配套精准的控制方式已被各大公司广泛应用。</p><p class='describe'>该类型设备具有配套可制化工装，让客户产能效率达到最大化。实力源独有SI高离化靶源，生产中补足均衡高折射薄膜的制备。此技术可具备AR+AF薄膜及七彩渐变和光学薄膜的制备。该类型设备低温成膜形式，可应对各种产品的表面薄膜的制备。设备全自动化溅射控制模式，实时监控膜层状态，实现稳定、批量的生产。</p>",
+      "cover_img_path": "/images/products/photoelectric/1/cover.jpg",
+      "img_path_list": ["/images/products/photoelectric/1/1.jpg","/images/products/photoelectric/1/2.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/photoelectric/1/tech.jpg'></div>",
+      "scope": "<p class='title'>手机，数码产品，卫浴等同样有装饰性要求的产品，光学镀膜通过底层镀制颜色膜和透明介质多层膜实现多种颜色。</p><div class='small_wrap'><div class='item_wrap'><img src='/images/products/photoelectric/1/scope1.jpg'></div><div class='item_wrap'><img src='/images/products/photoelectric/1/scope2.jpg'></div><div class='item_wrap'><img src='/images/products/photoelectric/1/scope3.jpg'></div><div class='item_wrap'><img src='/images/products/photoelectric/1/scope4.jpg'></div></div>"
+    }
+  ]
+}

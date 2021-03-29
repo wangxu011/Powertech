@@ -1,0 +1,31 @@
+{
+  "value": [
+    {
+      "id": 3,
+      "name": "离子电源",
+      "describe": "<p class='describe'>特点：高频逆变，过流、过压、过载和过热等保护功能。与实力源条形离子源结合使用，可提高气体离化率，提升膜层质量。</p><p class='describe'>电源配置：1、标准配置：电源1台 3米输入电源线一根；2、选装配置：互锁保护装置一组；</p>",
+      "cover_img_path": "/images/products/ion/3/cover.jpg",
+      "img_path_list": ["/images/products/ion/3/cover.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/ion/3/tech.jpg'></div>",
+      "scope": "<p class='title'>暂无</p>"
+    },
+    {
+      "id": 2,
+      "name": "霍尔离子源",
+      "describe": "<p class='describe'>设计先进，结构简单实用，易于安装维护，运行成本低廉，离子束流大，达到等离子体处理和辅助的要求，可与多种沉积系统匹配，成为高端镀膜机优秀的配套单元。</p><p class='describe'>有效清除工件表面水分子和碳氢化合物；改善薄膜生长、优化薄膜结构；增加薄膜的一致性和重复性</p>",
+      "cover_img_path": "/images/products/ion/2/cover.jpg",
+      "img_path_list": ["/images/products/ion/2/1.jpg","/images/products/ion/2/2.jpg"],
+      "tech": "<div class='img_wrap'>暂无</div>",
+      "scope": "<p class='title'>光学镀膜、溅射镀膜、阴极弧离子镀等真空镀膜过程中的离子束辅助镀膜工艺。可完成曾透膜、高反镜、在线清洗、类金刚石膜层等</p>"
+    },
+    {
+      "id": 1,
+      "name": "阳极层离子源（条形离子源）",
+      "describe": "<p class='describe'>无灯丝、栅极及中和栅，可以长时间免维护稳定运行和生产。非常高的平均无故障时间和极低的维护成本。对镀膜环境的温度改变很小，尤其对温度敏感基片的镀膜非常有利。工作气压、能量调节范围广。结合基架空间要求、安装模式，可实现定制大面积离化源</p><p class='describe'>1、非金属基片清洗：清洗基片表面污染物（氧化物、含碳氢化合物等）、增加膜基结合力、减少基底缺陷、增加基片表面能等。</p><p class='describe'>2、 提高气体离化率：对工作气体进行离化，作为磁控溅射过程中的离子辅助沉积，同时提高膜层粒子在表面的迁移、扩散能力，有利于形成致密的膜层组织。</p><p class='describe'>3、沉积膜层：直接沉积DLC和光学膜、氧化物、氮化物等。</p>",
+      "cover_img_path": "/images/products/ion/1/cover.jpg",
+      "img_path_list": ["/images/products/ion/1/1.jpg","/images/products/ion/1/2.jpg","/images/products/ion/1/3.jpg"],
+      "tech": "<div class='img_wrap'>暂无</div>",
+      "scope": "<p class='title'>主要适用于大面积镀膜的离子清洗、辅助沉积、工具镀膜、塑料/玻璃/PET类产品基底改性等。</p>"
+    }
+  ]
+}

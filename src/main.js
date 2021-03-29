@@ -14,7 +14,9 @@ import {
   Carousel,
   CarouselItem,
   Image,
-  Pagination
+  Pagination,
+  Tabs,
+  TabPane
 } from 'element-ui'
 
 Vue.use(Menu)
@@ -25,6 +27,8 @@ Vue.use(Carousel)
 Vue.use(CarouselItem)
 Vue.use(Image)
 Vue.use(Pagination)
+Vue.use(Tabs)
+Vue.use(TabPane)
 
 Vue.config.productionTip = false
 

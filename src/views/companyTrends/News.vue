@@ -99,9 +99,10 @@ import Cookies from 'js-cookie'
           this.$router.push({
             path: '/companyTrends/news'
           })
+        }else {
+          this.dataPath = val === 'CN' ? '/data/news.json' : '/data/news_en.json'
+          this.getNewsList(this.dataPath)
         }
-        this.dataPath = val === 'CN' ? '/data/news.json' : '/data/news_en.json'
-        this.getNewsList(this.dataPath)
       }
     }
   }

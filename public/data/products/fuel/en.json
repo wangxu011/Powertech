@@ -1,0 +1,13 @@
+{
+  "value": [
+    {
+      "id": 1,
+      "name": "Hydrogen fuel cell continuous vacuum coating line",
+      "describe": "<p class='describe'>Hydrogen fuel cell is a kind of clean, safe and reliable power equipment. Through the reaction of hydrogen and oxygen (air), it provides stable and reliable electrical energy for the final electrical equipment. Fuel cells can be used as power sources and backup power sources for new energy vehicles, and have a wide range of applications. We provide hydrogen fuel cell membrane electrode monomer/polymer coating equipment, which can meet various needs from experiment to mass production.</p>",
+      "cover_img_path": "/images/products/fuel/1/cover.jpg",
+      "img_path_list": ["/images/products/fuel/1/1.jpg","/images/products/fuel/1/2.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/fuel/1/tech.jpg'></div>",
+      "scope": "<p class='title'>Fuel cell  Backup power supply</p><div class='big_wrap'><img src='/images/products/fuel/1/scope.jpg'></div>"
+    }
+  ]
+}

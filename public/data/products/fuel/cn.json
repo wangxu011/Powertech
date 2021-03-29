@@ -1,0 +1,13 @@
+{
+  "value": [
+    {
+      "id": 1,
+      "name": "氢燃料电池真空涂层连续线",
+      "describe": "<p class='describe'>氢燃料电池是一种清洁、安全可靠的电源装备，通过氢气与氧气（空气）的反应，为最终用电设备提供稳定可靠的电能。燃料电池可作为新能源汽车载动力源、备用电源等，具有广泛的应用市场。我们提供氢燃料电池膜电极单体/联体镀膜设备，可以满足实验到量产的各式需求。</p>",
+      "cover_img_path": "/images/products/fuel/1/cover.jpg",
+      "img_path_list": ["/images/products/fuel/1/1.jpg","/images/products/fuel/1/2.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/fuel/1/tech.jpg'></div>",
+      "scope": "<p class='title'>燃料电池  备用电源</p><div class='big_wrap'><img src='/images/products/fuel/1/scope.jpg'></div>"
+    }
+  ]
+}

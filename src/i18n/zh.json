@@ -4,7 +4,9 @@
     "right": "版权所有：北京实力源科技开发有限责任公司 备案号： 京ICP备13017475号",
     "link": "友情链接",
     "time": "发表时间",
-    "more": "更多 >>"
+    "more": "更多 >>",
+    "tech": "技术指标",
+    "scope": "应用领域"
   },
   "menu": {
     "home": "首页",
@@ -14,15 +16,23 @@
     "honor": "资质荣誉",
     "companyTrends": "公司动态",
     "news": "公司新闻",
-    "product": "产品中心",
+    "products": "产品中心",
     "hard": "硬质涂层设备",
     "decorative": "装饰涂层设备",
-    "photo": "光电薄膜设备",
+    "photoelectric": "光电薄膜设备",
     "research": "科研类涂层设备",
-    "functional": "Functional coating",
-    "vacuum": "Vacuum coating auxiliary",
+    "magnetic": "磁材真空镀膜设备",
+    "fuel": "燃料电池涂层设备",
+    "ion": "离子源设备",
+    "auxiliary": "设备辅助电源",
     "contactUs": "联系我们",
     "contactInfo": "联系方式"
+  },
+  "link": {
+    "vacuum": "中国真空学会",
+    "cutter": "中国刀具商务网",
+    "teraSolar": "北京兆阳光热技术有限公司",
+    "taizhou": "台州学院"
   },
   "companyProfile": {
     "title1": "一、公司概况及经营范围",

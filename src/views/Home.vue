@@ -11,13 +11,17 @@
     </div>
     <div class="content_wrap">
       <div class="product_wrap">
-        <p class="title">产品中心</p>
+        <p class="title">{{$t('menu.products')}}</p>
         <div class="item_wrap">
-          <div class="item" v-for="(product, index) in productList" :key="index">
+          <div class="item"
+            @click="turnToProduct(product.path)"
+            v-for="(product, index) in productList" :key="index">
             <div class="img_wrap">
               <img :src="product.img_path" alt="">
             </div>
-            <p class="name">{{product.name}}</p>
+            <div class="mask_wrap">
+              <p class="name">{{$t(product.name)}}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -80,19 +84,43 @@ export default {
       productList: [
         {
           img_path: require('../assets/images/home/product/hard.jpg'),
-          name: '超硬质涂层设备'
+          name: 'menu.hard',
+          path: '/products/hard'
         },
         {
-          img_path: require('../assets/images/home/product/scientific.jpg'),
-          name: '科研涂层设备'
+          img_path: require('../assets/images/home/product/decorative.jpg'),
+          name: 'menu.decorative',
+          path: '/products/decorative'
         },
         {
-          img_path: require('../assets/images/home/product/af.jpg'),
-          name: 'AF防水涂层设备'
+          img_path: require('../assets/images/home/product/photoelectric.jpg'),
+          name: 'menu.photoelectric',
+          path: '/products/photoelectric'
         },
         {
-          img_path: require('../assets/images/home/product/multi-arc.jpg'),
-          name: '多弧离子镀膜设备'
+          img_path: require('../assets/images/home/product/research.jpg'),
+          name: 'menu.research',
+          path: '/products/research'
+        },
+        {
+          img_path: require('../assets/images/home/product/magnetic.jpg'),
+          name: 'menu.magnetic',
+          path: '/products/magnetic'
+        },
+        {
+          img_path: require('../assets/images/home/product/fuel.jpg'),
+          name: 'menu.fuel',
+          path: '/products/fuel'
+        },
+        {
+          img_path: require('../assets/images/home/product/ion.jpg'),
+          name: 'menu.ion',
+          path: '/products/ion'
+        },
+        {
+          img_path: require('../assets/images/home/product/auxiliary.jpg'),
+          name: 'menu.auxiliary',
+          path: '/products/auxiliary'
         }
       ],
       newsList: [],
@@ -117,6 +145,11 @@ export default {
     toNewsDetail(news) {
       localStorage.setItem('newsDetail', JSON.stringify(news))
       this.$router.push({path: `/companyTrends/news/${news.id}`})
+    },
+    turnToProduct(path) {
+      this.$router.push({
+        path
+      })
     }
   },
   watch: {
@@ -144,7 +177,7 @@ export default {
   }
   .content_wrap{
     margin-top: 50px;
-    border: 1px solid red;
+    // border: 1px solid red;
     .product_wrap{
       width: 1200px;
       margin: 0 auto;
@@ -155,11 +188,21 @@ export default {
       .item_wrap{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         margin-top: 60px;
         .item{
           width: 280px;
+          margin-bottom: 26px;
           border-radius: 6px;
           box-shadow: 1px 4px 8px 4px #ddd;
+          position: relative;
+          cursor: pointer;
+          &:hover > .mask_wrap{
+            opacity: 1;
+          }
+          &:hover > .img_wrap > img{
+            height: 110%;
+          }
           .img_wrap{
             height: 200px;
             position: relative;
@@ -170,15 +213,27 @@ export default {
               position: absolute;
               left: 50%;
               transform: translateX(-50%);
+              transition: all 0.5s;
             }
           }
-          .name{
-            text-align: center;
-            font-size: 18px;
-            margin-top: 10px;
-            background-color: rgba(13, 46, 107, .6);
-            line-height: 2.5em;
-            color: #eee;
+          .mask_wrap{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 6px;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, .5);
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .name{
+              text-align: center;
+              font-size: 25px;
+              color: #eee;
+            }
           }
         }
       }
@@ -186,7 +241,7 @@ export default {
     .news_wrap{
       width: 1200px;
       margin: 0 auto;
-      margin-top: 70px;
+      margin-top: 45px;
       .title{
         font-size: 30px;
         text-align: center;

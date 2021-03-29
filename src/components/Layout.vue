@@ -58,6 +58,17 @@
             <template slot="title">{{$t("menu.companyTrends")}}</template>
             <el-menu-item index="/companyTrends/news">{{$t("menu.news")}}</el-menu-item>
           </el-submenu>
+          <el-submenu index="/products">
+            <template slot="title">{{$t("menu.products")}}</template>
+            <el-menu-item index="/products/hard">{{$t("menu.hard")}}</el-menu-item>
+            <el-menu-item index="/products/decorative">{{$t("menu.decorative")}}</el-menu-item>
+            <el-menu-item index="/products/photoelectric">{{$t("menu.photoelectric")}}</el-menu-item>
+            <el-menu-item index="/products/research">{{$t("menu.research")}}</el-menu-item>
+            <el-menu-item index="/products/magnetic">{{$t("menu.magnetic")}}</el-menu-item>
+            <el-menu-item index="/products/fuel">{{$t("menu.fuel")}}</el-menu-item>
+            <el-menu-item index="/products/ion">{{$t("menu.ion")}}</el-menu-item>
+            <el-menu-item index="/products/auxiliary">{{$t("menu.auxiliary")}}</el-menu-item>
+          </el-submenu>
           <el-submenu index="/contactUs">
             <template slot="title">{{$t("menu.contactUs")}}</template>
             <el-menu-item index="/contactUs/info">{{$t("menu.contactInfo")}}</el-menu-item>

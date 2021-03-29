@@ -1,0 +1,31 @@
+{
+  "value": [
+    {
+      "id": 3,
+      "name": "Magnetic material vacuum anti-corrosion coating equipment (rack plating)",
+      "describe": "<p class='describe'>It is suitable for the preparation of anticorrosive coatings on the surface of magnetic materials, through magnetron sputtering, evaporation, electric arc, ion bombardment, etc., rapid plating of aluminum/alloy, titanium, chromium and other metal films on the surface of the substrate, with high anticorrosion performance and film layer binding force, no pollution in the production process, and avoiding the residue of electroplating solution which leads to product defects.</p>",
+      "cover_img_path": "/images/products/magnetic/3/cover.jpg",
+      "img_path_list": ["/images/products/magnetic/3/1.jpg","/images/products/magnetic/3/2.jpg","/images/products/magnetic/3/3.jpg","/images/products/magnetic/3/4.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/magnetic/3/tech.jpg'></div>",
+      "scope": "<p class='title'>Magnetic material</p><div class='small_wrap'><div class='item_wrap'><img src='/images/products/magnetic/3/scope1.jpg'></div><div class='item_wrap'><img src='/images/products/magnetic/3/scope2.jpg'></div><div class='item_wrap'><img src='/images/products/magnetic/3/scope3.jpg'></div><div class='item_wrap'><img src='/images/products/magnetic/3/scope4.jpg'></div></div>"
+    },
+    {
+      "id": 2,
+      "name": "Magnetic material vacuum anticorrosive coating equipment (barrel plating)",
+      "describe": "<p class='describe'>In response to the current sharp demand for NdFeB coating, the latest improved NdFeB surface coating equipment has been introduced. The equipment is barrel plating, thus solving the customer’s small-volume magnetic steel coating needs. We have rich industry experience and provide customers with one-stop Service to solve customer concerns.</p>",
+      "cover_img_path": "/images/products/magnetic/2/cover.jpg",
+      "img_path_list": ["/images/products/magnetic/2/1.jpg","/images/products/magnetic/2/2.jpg","/images/products/magnetic/2/3.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/magnetic/2/tech.jpg'></div>",
+      "scope": "<p class='title'>Magnetic material Using arc, magnetron sputtering, thermal evaporation and other coating methods to assist high-pressure ion bombardment, metal materials such as dense aluminum coatings are quickly plated on neodymium iron boron materials, which are mainly used for the coating of small-volume magnetic steel.</p><div class='small_wrap'><div class='item_wrap'><img src='/images/products/magnetic/2/scope1.jpg'></div><div class='item_wrap'><img src='/images/products/magnetic/2/scope2.jpg'></div><div class='item_wrap'><img src='/images/products/magnetic/2/scope3.jpg'></div></div>"
+    },
+    {
+      "id": 1,
+      "name": "Continuous magnetron sputtering coating production line",
+      "describe": "<p class='describe'>Through magnetron sputtering low-temperature film formation method, assisting high-pressure ion bombardment, Dy and Tb coatings are quickly plated on neodymium iron boron materials, and high-performance magnetic materials are obtained through grain boundary diffusion technology, which saves the amount of heavy rare earths and reduces the amount for enterprises product production cost.</p><p class='describe'>According to production requirements, our company makes special design plans for target utilization, coating conversion rate, deposition rate, production efficiency and other issues. Satisfy customers' cost control and provide comprehensive solutions.</p>",
+      "cover_img_path": "/images/products/magnetic/1/cover.jpg",
+      "img_path_list": ["/images/products/magnetic/1/1.jpg","/images/products/magnetic/1/2.jpg","/images/products/magnetic/1/3.jpg","/images/products/magnetic/1/4.jpg"],
+      "tech": "<div class='img_wrap'>Nothing</div>",
+      "scope": "<p class='title'>It is used to reduce the amount of heavy rare earth in the production process of magnetic materials. After uniform coating of rare earth metals such as dysprosium and terbium on the surface of NdFeB, the grain boundary permeation is carried out, which plays a decisive role in improving the performance (coercivity) of the magnet. The heavy rare-earth coating is plated by magnetron sputtering method, which has high stability, good repeatability, good uniformity, denser film, high coating purity (without any doping), high target utilization rate, and etc.</p><div class='small_wrap'><div class='item_wrap'><img src='/images/products/magnetic/1/scope1.jpg'></div><div class='item_wrap'><img src='/images/products/magnetic/1/scope2.jpg'></div></div>"
+    }
+  ]
+}

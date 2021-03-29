@@ -1,0 +1,13 @@
+{
+  "value": [
+    {
+      "id": 1,
+      "name": "科研涂层设备",
+      "describe": "<p class='describe'>实验型真空镀膜设备有外形美观、结构紧凑、性能多样、操作简单可靠、耗电量低的特点。可实现蒸发镀膜、磁控溅射镀膜、电弧镀膜、CVD、PECVD等工艺。可进行手动、半自动、全自动控制。有多种尺寸型号可供选择。</p>",
+      "cover_img_path": "/images/products/research/1/cover.jpg",
+      "img_path_list": ["/images/products/research/1/1.jpg","/images/products/research/1/2.jpg","/images/products/research/1/3.jpg","/images/products/research/1/4.jpg"],
+      "tech": "<div class='img_wrap'><img src='/images/products/research/1/tech.jpg'></div>",
+      "scope": "<p class='title'>实验型真空镀膜设备主要用于大专院校、科研院所的教学、实验、国家重点实验室的研究试验、产品中试、日用五金、工具、模具的镀膜及航空航天、电子信息、光学产业、冶金等行业</p><div class='big_wrap'><img src='/images/products/research/1/scope.jpg'></div>"
+    }
+  ]
+}

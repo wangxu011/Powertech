@@ -4,7 +4,9 @@
     "right": "Rights Reserved: Beijing Powertech Co.,Ltd. ICP No.13017475",
     "link": "Links",
     "time": "Publish time",
-    "more": "More >>"
+    "more": "More >>",
+    "tech": "Technical Standard",
+    "scope": "Application Areas"
   },
   "menu": {
     "home": "Home",
@@ -14,15 +16,23 @@
     "honor": "Qualification Honors",
     "companyTrends": "Company Trends",
     "news": "Company News",
-    "product": "Products",
+    "products": "Products",
     "hard": "Hard coating",
     "decorative": "Decorative coating",
-    "photo": "Photoelectric film",
+    "photoelectric": "Photoelectric thin film coating",
     "research": "Scientific research coating",
-    "functional": "Functional coating",
-    "vacuum": "Vacuum coating auxiliary",
+    "magnetic": "Magnetic material vacuum coating",
+    "fuel": "Fuel cell coating",
+    "ion": "Ion source equipment",
+    "auxiliary": "Equipment auxiliary power",
     "contactUs": "Contact Us",
     "contactInfo": "Contact Information"
+  },
+  "link": {
+    "vacuum": "Chinese Vacuum Society",
+    "cutter": "China Cutter Business",
+    "teraSolar": "Beijing TeraSolar Photothermal",
+    "taizhou": "TAIZHOU University"
   },
   "companyProfile": {
     "title1": "1. Company profile and business scope",
